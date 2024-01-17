@@ -1,0 +1,13 @@
+[0.214s] Invoking command in '/home/august/arduinobot_ws/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/august/arduinobot_ws/build/arduinobot_cpp_examples -- -j8 -l8
+[0.263s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
+[1.248s] [01m[K/home/august/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_publisher.cpp:[m[K In constructor ‘[01m[KSimplePublisher::SimplePublisher()[m[K’:
+[1.249s] [01m[K/home/august/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_publisher.cpp:14:54:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid SimplePublisher::timerCallback()[m[K’
+[1.249s]    14 |             timer_ = create_wall_timer(1s, std::bind([01;31m[KtimerCallback[m[K, this));
+[1.249s]       |                                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[1.249s] [01m[K/home/august/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_publisher.cpp:18:14:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.249s]    18 |         void [01;36m[KtimerCallback[m[K()
+[1.249s]       |              [01;36m[K^~~~~~~~~~~~~[m[K
+[1.896s] make[2]: *** [CMakeFiles/simple_publisher.dir/build.make:63: CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o] Error 1
+[1.896s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/simple_publisher.dir/all] Error 2
+[1.896s] make: *** [Makefile:141: all] Error 2
+[1.898s] Invoked command in '/home/august/arduinobot_ws/build/arduinobot_cpp_examples' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/august/arduinobot_ws/build/arduinobot_cpp_examples -- -j8 -l8

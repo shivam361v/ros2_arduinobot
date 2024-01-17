@@ -1,0 +1,21 @@
+[0.755s] Invoking command in '/home/august/arduinobot_ws/src/arduinobot_py_examples': PYTHONPATH=/home/august/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/home/august/arduinobot_ws/install/arduinobot_py_examples/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/arduinobot_py_examples build --build-base /home/august/arduinobot_ws/build/arduinobot_py_examples/build install --record /home/august/arduinobot_ws/build/arduinobot_py_examples/install.log --install-scripts $base/lib/arduinobot_py_examples --single-version-externally-managed
+[0.913s] running egg_info
+[0.913s] writing ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/PKG-INFO
+[0.913s] writing dependency_links to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/dependency_links.txt
+[0.913s] writing entry points to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/entry_points.txt
+[0.914s] writing requirements to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/requires.txt
+[0.914s] writing top-level names to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/top_level.txt
+[0.945s] reading manifest file '../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[0.946s] writing manifest file '../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[0.946s] running build
+[0.946s] running build_py
+[0.946s] running install
+[0.947s] running install_lib
+[0.950s] running install_data
+[0.950s] running install_egg_info
+[0.951s] removing '/home/august/arduinobot_ws/install/arduinobot_py_examples/lib/python3.8/site-packages/arduinobot_py_examples-0.0.0-py3.8.egg-info' (and everything under it)
+[0.951s] Copying ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info to /home/august/arduinobot_ws/install/arduinobot_py_examples/lib/python3.8/site-packages/arduinobot_py_examples-0.0.0-py3.8.egg-info
+[0.952s] running install_scripts
+[0.970s] Installing simple_publisher script to /home/august/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[0.970s] writing list of installed files to '/home/august/arduinobot_ws/build/arduinobot_py_examples/install.log'
+[1.001s] Invoked command in '/home/august/arduinobot_ws/src/arduinobot_py_examples' returned '0': PYTHONPATH=/home/august/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/home/august/arduinobot_ws/install/arduinobot_py_examples/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/arduinobot_py_examples build --build-base /home/august/arduinobot_ws/build/arduinobot_py_examples/build install --record /home/august/arduinobot_ws/build/arduinobot_py_examples/install.log --install-scripts $base/lib/arduinobot_py_examples --single-version-externally-managed

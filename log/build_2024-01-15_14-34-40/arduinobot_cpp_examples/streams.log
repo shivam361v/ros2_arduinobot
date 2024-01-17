@@ -1,0 +1,47 @@
+[0.210s] Invoking command in '/home/august/arduinobot_ws/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/august/arduinobot_ws/build/arduinobot_cpp_examples -- -j8 -l8
+[0.235s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.253s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.394s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.452s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.458s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.536s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.562s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.634s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.687s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.688s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.691s] -- Looking for pthread.h
+[0.768s] -- Looking for pthread.h - found
+[0.768s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.851s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.851s] -- Looking for pthread_create in pthreads
+[0.905s] -- Looking for pthread_create in pthreads - not found
+[0.905s] -- Looking for pthread_create in pthread
+[0.963s] -- Looking for pthread_create in pthread - found
+[0.964s] -- Found Threads: TRUE  
+[1.117s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.170s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.170s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.170s] -- Configured cppcheck include dirs: 
+[1.170s] -- Configured cppcheck exclude dirs and/or files: 
+[1.170s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.170s] -- Configured cpplint exclude dirs and/or files: 
+[1.171s] -- Added test 'lint_cmake' to check CMake code style
+[1.171s] -- Added test 'uncrustify' to check C / C++ code style
+[1.172s] -- Configured uncrustify additional arguments: 
+[1.172s] -- Added test 'xmllint' to check XML markup files
+[1.174s] -- Configuring done
+[1.179s] -- Generating done
+[1.180s] -- Build files have been written to: /home/august/arduinobot_ws/build/arduinobot_cpp_examples
+[1.201s] [35m[1mScanning dependencies of target simple_publisher[0m
+[1.229s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
+[2.325s] [01m[K/home/august/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_publisher.cpp:[m[K In constructor ‘[01m[KSimplePublisher::SimplePublisher()[m[K’:
+[2.325s] [01m[K/home/august/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_publisher.cpp:14:54:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid SimplePublisher::timerCallback()[m[K’
+[2.325s]    14 |             timer_ = create_wall_timer(1s, std::bind([01;31m[KtimerCallback[m[K, this));
+[2.325s]       |                                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[2.325s] [01m[K/home/august/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_publisher.cpp:18:14:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.325s]    18 |         void [01;36m[KtimerCallback[m[K()
+[2.325s]       |              [01;36m[K^~~~~~~~~~~~~[m[K
+[3.077s] make[2]: *** [CMakeFiles/simple_publisher.dir/build.make:63: CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o] Error 1
+[3.077s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/simple_publisher.dir/all] Error 2
+[3.077s] make: *** [Makefile:141: all] Error 2
+[3.079s] Invoked command in '/home/august/arduinobot_ws/build/arduinobot_cpp_examples' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/august/arduinobot_ws/build/arduinobot_cpp_examples -- -j8 -l8

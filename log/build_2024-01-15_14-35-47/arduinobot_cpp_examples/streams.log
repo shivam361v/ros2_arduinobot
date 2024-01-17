@@ -1,0 +1,11 @@
+[0.196s] Invoking command in '/home/august/arduinobot_ws/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/august/arduinobot_ws/build/arduinobot_cpp_examples -- -j8 -l8
+[0.230s] [35m[1mScanning dependencies of target simple_publisher[0m
+[0.250s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
+[1.209s] [01m[K/home/august/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_publisher.cpp:[m[K In constructor ‘[01m[KSimplePublisher::SimplePublisher()[m[K’:
+[1.209s] [01m[K/home/august/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_publisher.cpp:14:75:[m[K [01;31m[Kerror: [m[Kinvalid use of void expression
+[1.209s]    14 |             timer_ = create_wall_timer(1s, std::bind(timerCallback(), this[01;31m[K)[m[K);
+[1.209s]       |                                                                           [01;31m[K^[m[K
+[1.861s] make[2]: *** [CMakeFiles/simple_publisher.dir/build.make:63: CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o] Error 1
+[1.862s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/simple_publisher.dir/all] Error 2
+[1.862s] make: *** [Makefile:141: all] Error 2
+[1.863s] Invoked command in '/home/august/arduinobot_ws/build/arduinobot_cpp_examples' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/august/arduinobot_ws/build/arduinobot_cpp_examples -- -j8 -l8

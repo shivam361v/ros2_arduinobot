@@ -1,0 +1,46 @@
+[0.184s] Invoking command in '/home/august/arduinobot_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/august/arduinobot_ws/src/arduinobot_description -DCMAKE_INSTALL_PREFIX=/home/august/arduinobot_ws/install/arduinobot_description
+[0.279s] -- The C compiler identification is GNU 9.4.0
+[0.364s] -- The CXX compiler identification is GNU 9.4.0
+[0.371s] -- Check for working C compiler: /usr/bin/cc
+[0.423s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.425s] -- Detecting C compiler ABI info
+[0.481s] -- Detecting C compiler ABI info - done
+[0.489s] -- Detecting C compile features
+[0.489s] -- Detecting C compile features - done
+[0.492s] -- Check for working CXX compiler: /usr/bin/c++
+[0.552s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.553s] -- Detecting CXX compiler ABI info
+[0.616s] -- Detecting CXX compiler ABI info - done
+[0.625s] -- Detecting CXX compile features
+[0.625s] -- Detecting CXX compile features - done
+[0.627s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.650s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.650s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.811s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.869s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.870s] -- Added test 'lint_cmake' to check CMake code style
+[0.871s] -- Added test 'xmllint' to check XML markup files
+[0.872s] -- Configuring done
+[0.873s] -- Generating done
+[0.874s] -- Build files have been written to: /home/august/arduinobot_ws/build/arduinobot_description
+[0.877s] Invoked command in '/home/august/arduinobot_ws/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/august/arduinobot_ws/src/arduinobot_description -DCMAKE_INSTALL_PREFIX=/home/august/arduinobot_ws/install/arduinobot_description
+[0.879s] Invoking command in '/home/august/arduinobot_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/august/arduinobot_ws/build/arduinobot_description -- -j8 -l8
+[0.909s] Invoked command in '/home/august/arduinobot_ws/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/august/arduinobot_ws/build/arduinobot_description -- -j8 -l8
+[0.927s] Invoking command in '/home/august/arduinobot_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/august/arduinobot_ws/build/arduinobot_description
+[0.934s] -- Install configuration: ""
+[0.934s] -- Installing: /home/august/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/package_run_dependencies/arduinobot_description
+[0.934s] -- Installing: /home/august/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/parent_prefix_path/arduinobot_description
+[0.934s] -- Installing: /home/august/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.sh
+[0.935s] -- Installing: /home/august/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.dsv
+[0.935s] -- Installing: /home/august/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/path.sh
+[0.935s] -- Installing: /home/august/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/path.dsv
+[0.935s] -- Installing: /home/august/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.bash
+[0.935s] -- Installing: /home/august/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.sh
+[0.935s] -- Installing: /home/august/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.zsh
+[0.935s] -- Installing: /home/august/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.dsv
+[0.935s] -- Installing: /home/august/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.dsv
+[0.935s] -- Installing: /home/august/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/packages/arduinobot_description
+[0.935s] -- Installing: /home/august/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/cmake/arduinobot_descriptionConfig.cmake
+[0.935s] -- Installing: /home/august/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/cmake/arduinobot_descriptionConfig-version.cmake
+[0.935s] -- Installing: /home/august/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.xml
+[0.937s] Invoked command in '/home/august/arduinobot_ws/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/august/arduinobot_ws/build/arduinobot_description
