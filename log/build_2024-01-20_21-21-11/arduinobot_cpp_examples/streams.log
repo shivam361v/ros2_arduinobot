@@ -1,0 +1,6 @@
+[0.239s] Invoking command in '/home/shivam/ros2_arduinobot/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivam/ros2_arduinobot/build/arduinobot_cpp_examples -- -j12 -l12
+[0.248s] [0mCMake Error: The current CMakeCache.txt directory /home/shivam/ros2_arduinobot/build/arduinobot_cpp_examples/CMakeCache.txt is different than the directory /home/august/arduinobot_ws/build/arduinobot_cpp_examples where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.271s] [0mCMake Error: The source directory "/home/august/arduinobot_ws/src/arduinobot_cpp_examples" does not exist.
+[0.272s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.272s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.760s] Invoked command in '/home/shivam/ros2_arduinobot/build/arduinobot_cpp_examples' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivam/ros2_arduinobot/build/arduinobot_cpp_examples -- -j12 -l12

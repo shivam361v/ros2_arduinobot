@@ -1,0 +1,1 @@
+Invoking command in '/home/shivam/ros2_arduinobot/build/arduinobot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shivam/ros2_arduinobot/src/arduinobot_controller -DCMAKE_INSTALL_PREFIX=/home/shivam/ros2_arduinobot/install/arduinobot_controller

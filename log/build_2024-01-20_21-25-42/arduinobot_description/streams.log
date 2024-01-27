@@ -1,0 +1,68 @@
+[0.186s] Invoking command in '/home/shivam/ros2_arduinobot/build/arduinobot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shivam/ros2_arduinobot/src/arduinobot_description -DCMAKE_INSTALL_PREFIX=/home/shivam/ros2_arduinobot/install/arduinobot_description
+[0.453s] -- The C compiler identification is GNU 11.4.0
+[1.103s] -- The CXX compiler identification is GNU 11.4.0
+[1.633s] -- Detecting C compiler ABI info
+[1.797s] -- Detecting C compiler ABI info - done
+[1.807s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.807s] -- Detecting C compile features
+[1.808s] -- Detecting C compile features - done
+[1.815s] -- Detecting CXX compiler ABI info
+[2.065s] -- Detecting CXX compiler ABI info - done
+[2.070s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.073s] -- Detecting CXX compile features
+[2.077s] -- Detecting CXX compile features - done
+[2.082s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.280s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.428s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.540s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.543s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.544s] -- Added test 'lint_cmake' to check CMake code style
+[2.546s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.547s] -- Added test 'xmllint' to check XML markup files
+[2.549s] -- Configuring done
+[2.553s] -- Generating done
+[2.555s] -- Build files have been written to: /home/shivam/ros2_arduinobot/build/arduinobot_description
+[2.562s] Invoked command in '/home/shivam/ros2_arduinobot/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shivam/ros2_arduinobot/src/arduinobot_description -DCMAKE_INSTALL_PREFIX=/home/shivam/ros2_arduinobot/install/arduinobot_description
+[2.565s] Invoking command in '/home/shivam/ros2_arduinobot/build/arduinobot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivam/ros2_arduinobot/build/arduinobot_description -- -j12 -l12
+[2.605s] Invoked command in '/home/shivam/ros2_arduinobot/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivam/ros2_arduinobot/build/arduinobot_description -- -j12 -l12
+[2.628s] Invoking command in '/home/shivam/ros2_arduinobot/build/arduinobot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shivam/ros2_arduinobot/build/arduinobot_description
+[2.633s] -- Install configuration: ""
+[2.634s] -- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/meshes
+[2.635s] -- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/meshes/right_finger.STL
+[2.635s] -- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/meshes/plate.STL
+[2.637s] -- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/meshes/left_finger.STL
+[2.638s] -- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/meshes/round_plate.STL
+[2.638s] -- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/meshes/servo_plate.STL
+[2.638s] -- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/meshes/triangular_link.STL
+[2.639s] -- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/meshes/forward_drive_arm.STL
+[2.641s] -- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/meshes/claw_support.STL
+[2.641s] -- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/meshes/base_plate.STL
+[2.646s] -- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/meshes/link.STL
+[2.647s] -- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/meshes/basement.STL
+[2.648s] -- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/meshes/horizontal_arm.STL
+[2.652s] -- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/meshes/vertical_drive_arm.STL
+[2.653s] -- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/urdf
+[2.654s] -- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot_gazebo.xacro
+[2.654s] -- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot.urdf.xacro
+[2.654s] -- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot_ros2_control.xacro
+[2.654s] -- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/launch
+[2.654s] -- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/launch/gazebo.launch.py
+[2.655s] -- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/launch/display.launch.py
+[2.655s] -- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/rviz
+[2.655s] -- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/rviz/display.rviz
+[2.656s] -- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/ament_index/resource_index/package_run_dependencies/arduinobot_description
+[2.657s] -- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/ament_index/resource_index/parent_prefix_path/arduinobot_description
+[2.657s] -- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.sh
+[2.658s] -- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.dsv
+[2.658s] -- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/environment/path.sh
+[2.658s] -- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/environment/path.dsv
+[2.659s] -- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/local_setup.bash
+[2.659s] -- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/local_setup.sh
+[2.659s] -- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/local_setup.zsh
+[2.660s] -- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/local_setup.dsv
+[2.660s] -- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/package.dsv
+[2.660s] -- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/ament_index/resource_index/packages/arduinobot_description
+[2.661s] -- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/cmake/arduinobot_descriptionConfig.cmake
+[2.661s] -- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/cmake/arduinobot_descriptionConfig-version.cmake
+[2.661s] -- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/package.xml
+[2.668s] Invoked command in '/home/shivam/ros2_arduinobot/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shivam/ros2_arduinobot/build/arduinobot_description

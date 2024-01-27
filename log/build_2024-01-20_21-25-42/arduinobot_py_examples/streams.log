@@ -1,0 +1,47 @@
+[1.579s] Invoking command in '/home/shivam/ros2_arduinobot/src/arduinobot_py_examples': PYTHONPATH=/home/shivam/ros2_arduinobot/build/arduinobot_py_examples/prefix_override:/home/shivam/ros2_arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/arduinobot_py_examples build --build-base /home/shivam/ros2_arduinobot/build/arduinobot_py_examples/build install --record /home/shivam/ros2_arduinobot/build/arduinobot_py_examples/install.log --install-scripts $base/lib/arduinobot_py_examples --single-version-externally-managed
+[1.858s] /home/shivam/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.859s]   warnings.warn(
+[1.909s] running egg_info
+[1.910s] creating ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info
+[1.911s] writing ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/PKG-INFO
+[1.912s] writing dependency_links to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/dependency_links.txt
+[1.913s] writing entry points to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/entry_points.txt
+[1.913s] writing requirements to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/requires.txt
+[1.914s] writing top-level names to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/top_level.txt
+[1.915s] writing manifest file '../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[1.918s] reading manifest file '../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[1.920s] writing manifest file '../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[1.921s] running build
+[1.921s] running build_py
+[1.922s] creating /home/shivam/ros2_arduinobot/build/arduinobot_py_examples/build
+[1.922s] creating /home/shivam/ros2_arduinobot/build/arduinobot_py_examples/build/lib
+[1.922s] creating /home/shivam/ros2_arduinobot/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[1.922s] copying arduinobot_py_examples/simple_publisher.py -> /home/shivam/ros2_arduinobot/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[1.922s] copying arduinobot_py_examples/__init__.py -> /home/shivam/ros2_arduinobot/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[1.923s] copying arduinobot_py_examples/simple_parameter.py -> /home/shivam/ros2_arduinobot/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[1.923s] copying arduinobot_py_examples/simple_subscriber.py -> /home/shivam/ros2_arduinobot/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[1.923s] running install
+[1.923s] running install_lib
+[1.925s] creating /home/shivam/ros2_arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples
+[1.925s] copying /home/shivam/ros2_arduinobot/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/simple_publisher.py -> /home/shivam/ros2_arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples
+[1.925s] copying /home/shivam/ros2_arduinobot/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/__init__.py -> /home/shivam/ros2_arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples
+[1.926s] copying /home/shivam/ros2_arduinobot/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/simple_parameter.py -> /home/shivam/ros2_arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples
+[1.926s] copying /home/shivam/ros2_arduinobot/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/simple_subscriber.py -> /home/shivam/ros2_arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples
+[1.926s] byte-compiling /home/shivam/ros2_arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/simple_publisher.py to simple_publisher.cpython-310.pyc
+[1.927s] byte-compiling /home/shivam/ros2_arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/__init__.py to __init__.cpython-310.pyc
+[1.927s] byte-compiling /home/shivam/ros2_arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/simple_parameter.py to simple_parameter.cpython-310.pyc
+[1.927s] byte-compiling /home/shivam/ros2_arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/simple_subscriber.py to simple_subscriber.cpython-310.pyc
+[1.927s] running install_data
+[1.928s] creating /home/shivam/ros2_arduinobot/install/arduinobot_py_examples/share/ament_index
+[1.929s] creating /home/shivam/ros2_arduinobot/install/arduinobot_py_examples/share/ament_index/resource_index
+[1.929s] creating /home/shivam/ros2_arduinobot/install/arduinobot_py_examples/share/ament_index/resource_index/packages
+[1.930s] copying resource/arduinobot_py_examples -> /home/shivam/ros2_arduinobot/install/arduinobot_py_examples/share/ament_index/resource_index/packages
+[1.930s] copying package.xml -> /home/shivam/ros2_arduinobot/install/arduinobot_py_examples/share/arduinobot_py_examples
+[1.930s] running install_egg_info
+[1.931s] Copying ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info to /home/shivam/ros2_arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples-0.0.0-py3.10.egg-info
+[1.933s] running install_scripts
+[1.954s] Installing simple_parameter script to /home/shivam/ros2_arduinobot/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[1.954s] Installing simple_publisher script to /home/shivam/ros2_arduinobot/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[1.955s] Installing simple_subscriber script to /home/shivam/ros2_arduinobot/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[1.955s] writing list of installed files to '/home/shivam/ros2_arduinobot/build/arduinobot_py_examples/install.log'
+[1.994s] Invoked command in '/home/shivam/ros2_arduinobot/src/arduinobot_py_examples' returned '0': PYTHONPATH=/home/shivam/ros2_arduinobot/build/arduinobot_py_examples/prefix_override:/home/shivam/ros2_arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/arduinobot_py_examples build --build-base /home/shivam/ros2_arduinobot/build/arduinobot_py_examples/build install --record /home/shivam/ros2_arduinobot/build/arduinobot_py_examples/install.log --install-scripts $base/lib/arduinobot_py_examples --single-version-externally-managed

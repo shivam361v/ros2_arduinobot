@@ -1,0 +1,507 @@
+[0.000000] (-) TimerEvent: {}
+[0.000782] (arduinobot_controller) JobQueued: {'identifier': 'arduinobot_controller', 'dependencies': OrderedDict()}
+[0.000900] (arduinobot_cpp_examples) JobQueued: {'identifier': 'arduinobot_cpp_examples', 'dependencies': OrderedDict()}
+[0.000961] (arduinobot_description) JobQueued: {'identifier': 'arduinobot_description', 'dependencies': OrderedDict()}
+[0.000989] (arduinobot_py_examples) JobQueued: {'identifier': 'arduinobot_py_examples', 'dependencies': OrderedDict()}
+[0.001013] (arduinobot_controller) JobStarted: {'identifier': 'arduinobot_controller'}
+[0.064471] (arduinobot_cpp_examples) JobStarted: {'identifier': 'arduinobot_cpp_examples'}
+[0.099819] (-) TimerEvent: {}
+[0.127938] (arduinobot_description) JobStarted: {'identifier': 'arduinobot_description'}
+[0.186246] (arduinobot_py_examples) JobStarted: {'identifier': 'arduinobot_py_examples'}
+[0.200892] (-) TimerEvent: {}
+[0.296080] (arduinobot_controller) JobProgress: {'identifier': 'arduinobot_controller', 'progress': 'cmake'}
+[0.296400] (arduinobot_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/shivam/ros2_arduinobot/src/arduinobot_controller', '-DCMAKE_INSTALL_PREFIX=/home/shivam/ros2_arduinobot/install/arduinobot_controller'], 'cwd': '/home/shivam/ros2_arduinobot/build/arduinobot_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shivam'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/home/shivam'), ('OLDPWD', '/home/shivam'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shivam'), ('NAME', 'Shivam'), ('WSL_INTEROP', '/run/WSL/25224_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Python312/Scripts/:/mnt/c/Program Files/Python312/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/GitHubDesktop/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.3/bin:/snap/bin'), ('WT_SESSION', '6beab316-738a-4c43-bf45-5a2b2265c896'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/shivam/ros2_arduinobot/build/arduinobot_controller'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.301877] (arduinobot_cpp_examples) JobProgress: {'identifier': 'arduinobot_cpp_examples', 'progress': 'cmake'}
+[0.302003] (-) TimerEvent: {}
+[0.302205] (arduinobot_cpp_examples) Command: {'cmd': ['/usr/bin/cmake', '/home/shivam/ros2_arduinobot/src/arduinobot_cpp_examples', '-DCMAKE_INSTALL_PREFIX=/home/shivam/ros2_arduinobot/install/arduinobot_cpp_examples'], 'cwd': '/home/shivam/ros2_arduinobot/build/arduinobot_cpp_examples', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shivam'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/home/shivam'), ('OLDPWD', '/home/shivam'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shivam'), ('NAME', 'Shivam'), ('WSL_INTEROP', '/run/WSL/25224_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Python312/Scripts/:/mnt/c/Program Files/Python312/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/GitHubDesktop/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.3/bin:/snap/bin'), ('WT_SESSION', '6beab316-738a-4c43-bf45-5a2b2265c896'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/shivam/ros2_arduinobot/build/arduinobot_cpp_examples'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.304922] (arduinobot_description) JobProgress: {'identifier': 'arduinobot_description', 'progress': 'cmake'}
+[0.306060] (arduinobot_description) Command: {'cmd': ['/usr/bin/cmake', '/home/shivam/ros2_arduinobot/src/arduinobot_description', '-DCMAKE_INSTALL_PREFIX=/home/shivam/ros2_arduinobot/install/arduinobot_description'], 'cwd': '/home/shivam/ros2_arduinobot/build/arduinobot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shivam'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/home/shivam'), ('OLDPWD', '/home/shivam'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shivam'), ('NAME', 'Shivam'), ('WSL_INTEROP', '/run/WSL/25224_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Python312/Scripts/:/mnt/c/Program Files/Python312/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/GitHubDesktop/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.3/bin:/snap/bin'), ('WT_SESSION', '6beab316-738a-4c43-bf45-5a2b2265c896'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/shivam/ros2_arduinobot/build/arduinobot_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.402162] (-) TimerEvent: {}
+[0.502698] (-) TimerEvent: {}
+[0.511111] (arduinobot_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.519983] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.580820] (arduinobot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.602884] (-) TimerEvent: {}
+[0.703445] (-) TimerEvent: {}
+[0.803957] (-) TimerEvent: {}
+[0.904486] (-) TimerEvent: {}
+[1.005045] (-) TimerEvent: {}
+[1.082350] (arduinobot_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.105273] (-) TimerEvent: {}
+[1.189815] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.205386] (-) TimerEvent: {}
+[1.231020] (arduinobot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.305533] (-) TimerEvent: {}
+[1.323852] (arduinobot_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.405734] (-) TimerEvent: {}
+[1.506195] (-) TimerEvent: {}
+[1.527945] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.606331] (-) TimerEvent: {}
+[1.660546] (arduinobot_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.675352] (arduinobot_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.676307] (arduinobot_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.677084] (arduinobot_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.682497] (arduinobot_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.706516] (-) TimerEvent: {}
+[1.741958] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.750097] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.750716] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.751642] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.757412] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.760642] (arduinobot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.763603] (arduinobot_py_examples) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/arduinobot_py_examples', 'build', '--build-base', '/home/shivam/ros2_arduinobot/build/arduinobot_py_examples/build', 'install', '--record', '/home/shivam/ros2_arduinobot/build/arduinobot_py_examples/install.log', '--install-scripts', '$base/lib/arduinobot_py_examples', '--single-version-externally-managed'], 'cwd': '/home/shivam/ros2_arduinobot/src/arduinobot_py_examples', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shivam', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/shivam', 'OLDPWD': '/home/shivam', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', '_colcon_cd_root': '/opt/ros/humble/', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'shivam', 'NAME': 'Shivam', 'WSL_INTEROP': '/run/WSL/25224_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Python312/Scripts/:/mnt/c/Program Files/Python312/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/GitHubDesktop/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.3/bin:/snap/bin', 'WT_SESSION': '6beab316-738a-4c43-bf45-5a2b2265c896', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/shivam/ros2_arduinobot/build/arduinobot_py_examples', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shivam/ros2_arduinobot/build/arduinobot_py_examples/prefix_override:/home/shivam/ros2_arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[1.806686] (-) TimerEvent: {}
+[1.882587] (arduinobot_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.892746] (arduinobot_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.893875] (arduinobot_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.894458] (arduinobot_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.901093] (arduinobot_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.906888] (-) TimerEvent: {}
+[1.925515] (arduinobot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.934700] (arduinobot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.935230] (arduinobot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.935889] (arduinobot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.937129] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.942370] (arduinobot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.950196] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.951132] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.952021] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.954049] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.007539] (-) TimerEvent: {}
+[2.044612] (arduinobot_py_examples) StderrLine: {'line': b"/home/shivam/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[2.045177] (arduinobot_py_examples) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.095079] (arduinobot_py_examples) StdoutLine: {'line': b'running egg_info\n'}
+[2.096401] (arduinobot_py_examples) StdoutLine: {'line': b'creating ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info\n'}
+[2.097343] (arduinobot_py_examples) StdoutLine: {'line': b'writing ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/PKG-INFO\n'}
+[2.098691] (arduinobot_py_examples) StdoutLine: {'line': b'writing dependency_links to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/dependency_links.txt\n'}
+[2.099414] (arduinobot_py_examples) StdoutLine: {'line': b'writing entry points to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/entry_points.txt\n'}
+[2.099980] (arduinobot_py_examples) StdoutLine: {'line': b'writing requirements to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/requires.txt\n'}
+[2.100333] (arduinobot_py_examples) StdoutLine: {'line': b'writing top-level names to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/top_level.txt\n'}
+[2.101442] (arduinobot_py_examples) StdoutLine: {'line': b"writing manifest file '../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'\n"}
+[2.104704] (arduinobot_py_examples) StdoutLine: {'line': b"reading manifest file '../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'\n"}
+[2.106818] (arduinobot_py_examples) StdoutLine: {'line': b"writing manifest file '../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'\n"}
+[2.107175] (arduinobot_py_examples) StdoutLine: {'line': b'running build\n'}
+[2.107419] (arduinobot_py_examples) StdoutLine: {'line': b'running build_py\n'}
+[2.107615] (-) TimerEvent: {}
+[2.108128] (arduinobot_py_examples) StdoutLine: {'line': b'creating /home/shivam/ros2_arduinobot/build/arduinobot_py_examples/build\n'}
+[2.108699] (arduinobot_py_examples) StdoutLine: {'line': b'creating /home/shivam/ros2_arduinobot/build/arduinobot_py_examples/build/lib\n'}
+[2.109018] (arduinobot_py_examples) StdoutLine: {'line': b'creating /home/shivam/ros2_arduinobot/build/arduinobot_py_examples/build/lib/arduinobot_py_examples\n'}
+[2.109131] (arduinobot_py_examples) StdoutLine: {'line': b'copying arduinobot_py_examples/simple_publisher.py -> /home/shivam/ros2_arduinobot/build/arduinobot_py_examples/build/lib/arduinobot_py_examples\n'}
+[2.109225] (arduinobot_py_examples) StdoutLine: {'line': b'copying arduinobot_py_examples/__init__.py -> /home/shivam/ros2_arduinobot/build/arduinobot_py_examples/build/lib/arduinobot_py_examples\n'}
+[2.109317] (arduinobot_py_examples) StdoutLine: {'line': b'copying arduinobot_py_examples/simple_parameter.py -> /home/shivam/ros2_arduinobot/build/arduinobot_py_examples/build/lib/arduinobot_py_examples\n'}
+[2.109577] (arduinobot_py_examples) StdoutLine: {'line': b'copying arduinobot_py_examples/simple_subscriber.py -> /home/shivam/ros2_arduinobot/build/arduinobot_py_examples/build/lib/arduinobot_py_examples\n'}
+[2.109655] (arduinobot_py_examples) StdoutLine: {'line': b'running install\n'}
+[2.109744] (arduinobot_py_examples) StdoutLine: {'line': b'running install_lib\n'}
+[2.111070] (arduinobot_py_examples) StdoutLine: {'line': b'creating /home/shivam/ros2_arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples\n'}
+[2.111879] (arduinobot_py_examples) StdoutLine: {'line': b'copying /home/shivam/ros2_arduinobot/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/simple_publisher.py -> /home/shivam/ros2_arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples\n'}
+[2.112071] (arduinobot_py_examples) StdoutLine: {'line': b'copying /home/shivam/ros2_arduinobot/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/__init__.py -> /home/shivam/ros2_arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples\n'}
+[2.112350] (arduinobot_py_examples) StdoutLine: {'line': b'copying /home/shivam/ros2_arduinobot/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/simple_parameter.py -> /home/shivam/ros2_arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples\n'}
+[2.112761] (arduinobot_py_examples) StdoutLine: {'line': b'copying /home/shivam/ros2_arduinobot/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/simple_subscriber.py -> /home/shivam/ros2_arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples\n'}
+[2.112857] (arduinobot_py_examples) StdoutLine: {'line': b'byte-compiling /home/shivam/ros2_arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/simple_publisher.py to simple_publisher.cpython-310.pyc\n'}
+[2.113313] (arduinobot_py_examples) StdoutLine: {'line': b'byte-compiling /home/shivam/ros2_arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/__init__.py to __init__.cpython-310.pyc\n'}
+[2.113554] (arduinobot_py_examples) StdoutLine: {'line': b'byte-compiling /home/shivam/ros2_arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/simple_parameter.py to simple_parameter.cpython-310.pyc\n'}
+[2.113852] (arduinobot_py_examples) StdoutLine: {'line': b'byte-compiling /home/shivam/ros2_arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/simple_subscriber.py to simple_subscriber.cpython-310.pyc\n'}
+[2.114168] (arduinobot_py_examples) StdoutLine: {'line': b'running install_data\n'}
+[2.114758] (arduinobot_py_examples) StdoutLine: {'line': b'creating /home/shivam/ros2_arduinobot/install/arduinobot_py_examples/share/ament_index\n'}
+[2.115339] (arduinobot_py_examples) StdoutLine: {'line': b'creating /home/shivam/ros2_arduinobot/install/arduinobot_py_examples/share/ament_index/resource_index\n'}
+[2.116063] (arduinobot_py_examples) StdoutLine: {'line': b'creating /home/shivam/ros2_arduinobot/install/arduinobot_py_examples/share/ament_index/resource_index/packages\n'}
+[2.116277] (arduinobot_py_examples) StdoutLine: {'line': b'copying resource/arduinobot_py_examples -> /home/shivam/ros2_arduinobot/install/arduinobot_py_examples/share/ament_index/resource_index/packages\n'}
+[2.116414] (arduinobot_py_examples) StdoutLine: {'line': b'copying package.xml -> /home/shivam/ros2_arduinobot/install/arduinobot_py_examples/share/arduinobot_py_examples\n'}
+[2.116549] (arduinobot_py_examples) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.117403] (arduinobot_py_examples) StdoutLine: {'line': b'Copying ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info to /home/shivam/ros2_arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples-0.0.0-py3.10.egg-info\n'}
+[2.119198] (arduinobot_py_examples) StdoutLine: {'line': b'running install_scripts\n'}
+[2.140438] (arduinobot_py_examples) StdoutLine: {'line': b'Installing simple_parameter script to /home/shivam/ros2_arduinobot/install/arduinobot_py_examples/lib/arduinobot_py_examples\n'}
+[2.140921] (arduinobot_py_examples) StdoutLine: {'line': b'Installing simple_publisher script to /home/shivam/ros2_arduinobot/install/arduinobot_py_examples/lib/arduinobot_py_examples\n'}
+[2.141167] (arduinobot_py_examples) StdoutLine: {'line': b'Installing simple_subscriber script to /home/shivam/ros2_arduinobot/install/arduinobot_py_examples/lib/arduinobot_py_examples\n'}
+[2.141482] (arduinobot_py_examples) StdoutLine: {'line': b"writing list of installed files to '/home/shivam/ros2_arduinobot/build/arduinobot_py_examples/install.log'\n"}
+[2.149606] (arduinobot_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[2.179344] (arduinobot_py_examples) CommandEnded: {'returncode': 0}
+[2.186970] (arduinobot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.195078] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[2.195615] (arduinobot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.198833] (arduinobot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.202298] (arduinobot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.206295] (arduinobot_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.210156] (-) TimerEvent: {}
+[2.249455] (arduinobot_controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.253319] (arduinobot_py_examples) JobEnded: {'identifier': 'arduinobot_py_examples', 'rc': 0}
+[2.293875] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.310318] (-) TimerEvent: {}
+[2.347998] (arduinobot_controller) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.351163] (arduinobot_controller) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.352010] (arduinobot_controller) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.352939] (arduinobot_controller) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.354050] (arduinobot_controller) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.355589] (arduinobot_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.358857] (arduinobot_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[2.359704] (arduinobot_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/shivam/ros2_arduinobot/build/arduinobot_controller\n'}
+[2.364276] (arduinobot_controller) CommandEnded: {'returncode': 0}
+[2.366131] (arduinobot_controller) JobProgress: {'identifier': 'arduinobot_controller', 'progress': 'build'}
+[2.366198] (arduinobot_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shivam/ros2_arduinobot/build/arduinobot_controller', '--', '-j12', '-l12'], 'cwd': '/home/shivam/ros2_arduinobot/build/arduinobot_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shivam'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/home/shivam'), ('OLDPWD', '/home/shivam'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shivam'), ('NAME', 'Shivam'), ('WSL_INTEROP', '/run/WSL/25224_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Python312/Scripts/:/mnt/c/Program Files/Python312/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/GitHubDesktop/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.3/bin:/snap/bin'), ('WT_SESSION', '6beab316-738a-4c43-bf45-5a2b2265c896'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/shivam/ros2_arduinobot/build/arduinobot_controller'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.400870] (arduinobot_controller) CommandEnded: {'returncode': 0}
+[2.408071] (arduinobot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[2.410497] (-) TimerEvent: {}
+[2.430456] (arduinobot_controller) JobProgress: {'identifier': 'arduinobot_controller', 'progress': 'install'}
+[2.446683] (arduinobot_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shivam/ros2_arduinobot/build/arduinobot_controller'], 'cwd': '/home/shivam/ros2_arduinobot/build/arduinobot_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shivam'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/home/shivam'), ('OLDPWD', '/home/shivam'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shivam'), ('NAME', 'Shivam'), ('WSL_INTEROP', '/run/WSL/25224_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Python312/Scripts/:/mnt/c/Program Files/Python312/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/GitHubDesktop/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.3/bin:/snap/bin'), ('WT_SESSION', '6beab316-738a-4c43-bf45-5a2b2265c896'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/shivam/ros2_arduinobot/build/arduinobot_controller'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.461710] (arduinobot_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.462046] (arduinobot_controller) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_controller/share/arduinobot_controller/launch\n'}
+[2.463299] (arduinobot_controller) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_controller/share/arduinobot_controller/launch/controller.launch.py\n'}
+[2.463980] (arduinobot_controller) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_controller/share/arduinobot_controller/config\n'}
+[2.465818] (arduinobot_controller) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_controller/share/arduinobot_controller/config/arduinobot_controllers.yaml\n'}
+[2.468129] (arduinobot_controller) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_controller/share/ament_index/resource_index/package_run_dependencies/arduinobot_controller\n'}
+[2.469401] (arduinobot_controller) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_controller/share/ament_index/resource_index/parent_prefix_path/arduinobot_controller\n'}
+[2.469666] (arduinobot_controller) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_controller/share/arduinobot_controller/environment/ament_prefix_path.sh\n'}
+[2.469755] (arduinobot_controller) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_controller/share/arduinobot_controller/environment/ament_prefix_path.dsv\n'}
+[2.469827] (arduinobot_controller) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_controller/share/arduinobot_controller/environment/path.sh\n'}
+[2.472500] (arduinobot_controller) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_controller/share/arduinobot_controller/environment/path.dsv\n'}
+[2.473610] (arduinobot_controller) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_controller/share/arduinobot_controller/local_setup.bash\n'}
+[2.474842] (arduinobot_controller) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_controller/share/arduinobot_controller/local_setup.sh\n'}
+[2.474970] (arduinobot_controller) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_controller/share/arduinobot_controller/local_setup.zsh\n'}
+[2.475038] (arduinobot_controller) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_controller/share/arduinobot_controller/local_setup.dsv\n'}
+[2.475098] (arduinobot_controller) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_controller/share/arduinobot_controller/package.dsv\n'}
+[2.475161] (arduinobot_controller) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_controller/share/ament_index/resource_index/packages/arduinobot_controller\n'}
+[2.475235] (arduinobot_controller) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_controller/share/arduinobot_controller/cmake/arduinobot_controllerConfig.cmake\n'}
+[2.475302] (arduinobot_controller) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_controller/share/arduinobot_controller/cmake/arduinobot_controllerConfig-version.cmake\n'}
+[2.475368] (arduinobot_controller) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_controller/share/arduinobot_controller/package.xml\n'}
+[2.477074] (arduinobot_controller) CommandEnded: {'returncode': 0}
+[2.511037] (-) TimerEvent: {}
+[2.556094] (arduinobot_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.612919] (-) TimerEvent: {}
+[2.660015] (arduinobot_controller) JobEnded: {'identifier': 'arduinobot_controller', 'rc': 0}
+[2.668649] (arduinobot_description) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.671719] (arduinobot_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.672672] (arduinobot_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.673748] (arduinobot_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.675486] (arduinobot_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.677329] (arduinobot_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.681476] (arduinobot_description) StdoutLine: {'line': b'-- Generating done\n'}
+[2.683561] (arduinobot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/shivam/ros2_arduinobot/build/arduinobot_description\n'}
+[2.689168] (arduinobot_description) CommandEnded: {'returncode': 0}
+[2.690512] (arduinobot_description) JobProgress: {'identifier': 'arduinobot_description', 'progress': 'build'}
+[2.692154] (arduinobot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shivam/ros2_arduinobot/build/arduinobot_description', '--', '-j12', '-l12'], 'cwd': '/home/shivam/ros2_arduinobot/build/arduinobot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shivam'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/home/shivam'), ('OLDPWD', '/home/shivam'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shivam'), ('NAME', 'Shivam'), ('WSL_INTEROP', '/run/WSL/25224_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Python312/Scripts/:/mnt/c/Program Files/Python312/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/GitHubDesktop/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.3/bin:/snap/bin'), ('WT_SESSION', '6beab316-738a-4c43-bf45-5a2b2265c896'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/shivam/ros2_arduinobot/build/arduinobot_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.705811] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.713097] (-) TimerEvent: {}
+[2.717346] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.731610] (arduinobot_description) CommandEnded: {'returncode': 0}
+[2.736338] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.753631] (arduinobot_description) JobProgress: {'identifier': 'arduinobot_description', 'progress': 'install'}
+[2.754849] (arduinobot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shivam/ros2_arduinobot/build/arduinobot_description'], 'cwd': '/home/shivam/ros2_arduinobot/build/arduinobot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shivam'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/home/shivam'), ('OLDPWD', '/home/shivam'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shivam'), ('NAME', 'Shivam'), ('WSL_INTEROP', '/run/WSL/25224_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Python312/Scripts/:/mnt/c/Program Files/Python312/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/GitHubDesktop/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.3/bin:/snap/bin'), ('WT_SESSION', '6beab316-738a-4c43-bf45-5a2b2265c896'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/shivam/ros2_arduinobot/build/arduinobot_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.761698] (arduinobot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.761954] (arduinobot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/meshes\n'}
+[2.762600] (arduinobot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/meshes/right_finger.STL\n'}
+[2.763063] (arduinobot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/meshes/plate.STL\n'}
+[2.765548] (arduinobot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/meshes/left_finger.STL\n'}
+[2.765777] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.766027] (arduinobot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/meshes/round_plate.STL\n'}
+[2.766152] (arduinobot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/meshes/servo_plate.STL\n'}
+[2.766359] (arduinobot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/meshes/triangular_link.STL\n'}
+[2.767245] (arduinobot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/meshes/forward_drive_arm.STL\n'}
+[2.769053] (arduinobot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/meshes/claw_support.STL\n'}
+[2.769610] (arduinobot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/meshes/base_plate.STL\n'}
+[2.773822] (arduinobot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/meshes/link.STL\n'}
+[2.774851] (arduinobot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/meshes/basement.STL\n'}
+[2.776116] (arduinobot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/meshes/horizontal_arm.STL\n'}
+[2.779630] (arduinobot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/meshes/vertical_drive_arm.STL\n'}
+[2.780961] (arduinobot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/urdf\n'}
+[2.781828] (arduinobot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot_gazebo.xacro\n'}
+[2.782541] (arduinobot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot.urdf.xacro\n'}
+[2.782661] (arduinobot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot_ros2_control.xacro\n'}
+[2.782744] (arduinobot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/launch\n'}
+[2.782831] (arduinobot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/launch/gazebo.launch.py\n'}
+[2.782918] (arduinobot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/launch/display.launch.py\n'}
+[2.783002] (arduinobot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/rviz\n'}
+[2.783654] (arduinobot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/rviz/display.rviz\n'}
+[2.784581] (arduinobot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/ament_index/resource_index/package_run_dependencies/arduinobot_description\n'}
+[2.784934] (arduinobot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/ament_index/resource_index/parent_prefix_path/arduinobot_description\n'}
+[2.785569] (arduinobot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.sh\n'}
+[2.785978] (arduinobot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.dsv\n'}
+[2.786224] (arduinobot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/environment/path.sh\n'}
+[2.786475] (arduinobot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/environment/path.dsv\n'}
+[2.786862] (arduinobot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/local_setup.bash\n'}
+[2.787302] (arduinobot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/local_setup.sh\n'}
+[2.787466] (arduinobot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/local_setup.zsh\n'}
+[2.787799] (arduinobot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/local_setup.dsv\n'}
+[2.788144] (arduinobot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/package.dsv\n'}
+[2.788666] (arduinobot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/ament_index/resource_index/packages/arduinobot_description\n'}
+[2.788962] (arduinobot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/cmake/arduinobot_descriptionConfig.cmake\n'}
+[2.789309] (arduinobot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/cmake/arduinobot_descriptionConfig-version.cmake\n'}
+[2.789712] (arduinobot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_description/share/arduinobot_description/package.xml\n'}
+[2.795401] (arduinobot_description) CommandEnded: {'returncode': 0}
+[2.803100] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.813446] (-) TimerEvent: {}
+[2.916187] (-) TimerEvent: {}
+[2.934704] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.942685] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.952658] (arduinobot_description) JobEnded: {'identifier': 'arduinobot_description', 'rc': 0}
+[3.016518] (-) TimerEvent: {}
+[3.117237] (-) TimerEvent: {}
+[3.217967] (-) TimerEvent: {}
+[3.318622] (-) TimerEvent: {}
+[3.419222] (-) TimerEvent: {}
+[3.519880] (-) TimerEvent: {}
+[3.620629] (-) TimerEvent: {}
+[3.721254] (-) TimerEvent: {}
+[3.821923] (-) TimerEvent: {}
+[3.922643] (-) TimerEvent: {}
+[4.023476] (-) TimerEvent: {}
+[4.124171] (-) TimerEvent: {}
+[4.224860] (-) TimerEvent: {}
+[4.325420] (-) TimerEvent: {}
+[4.425974] (-) TimerEvent: {}
+[4.526581] (-) TimerEvent: {}
+[4.627146] (-) TimerEvent: {}
+[4.727803] (-) TimerEvent: {}
+[4.828519] (-) TimerEvent: {}
+[4.929332] (-) TimerEvent: {}
+[5.029994] (-) TimerEvent: {}
+[5.130707] (-) TimerEvent: {}
+[5.231326] (-) TimerEvent: {}
+[5.331995] (-) TimerEvent: {}
+[5.432618] (-) TimerEvent: {}
+[5.533258] (-) TimerEvent: {}
+[5.633982] (-) TimerEvent: {}
+[5.734697] (-) TimerEvent: {}
+[5.835305] (-) TimerEvent: {}
+[5.935991] (-) TimerEvent: {}
+[6.036646] (-) TimerEvent: {}
+[6.137267] (-) TimerEvent: {}
+[6.237971] (-) TimerEvent: {}
+[6.338748] (-) TimerEvent: {}
+[6.439442] (-) TimerEvent: {}
+[6.540401] (-) TimerEvent: {}
+[6.641075] (-) TimerEvent: {}
+[6.741731] (-) TimerEvent: {}
+[6.842326] (-) TimerEvent: {}
+[6.943106] (-) TimerEvent: {}
+[7.043720] (-) TimerEvent: {}
+[7.144292] (-) TimerEvent: {}
+[7.244839] (-) TimerEvent: {}
+[7.345539] (-) TimerEvent: {}
+[7.431575] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[7.445795] (-) TimerEvent: {}
+[7.546440] (-) TimerEvent: {}
+[7.646963] (-) TimerEvent: {}
+[7.747419] (-) TimerEvent: {}
+[7.847976] (-) TimerEvent: {}
+[7.948710] (-) TimerEvent: {}
+[8.049332] (-) TimerEvent: {}
+[8.150001] (-) TimerEvent: {}
+[8.250697] (-) TimerEvent: {}
+[8.351257] (-) TimerEvent: {}
+[8.451909] (-) TimerEvent: {}
+[8.552629] (-) TimerEvent: {}
+[8.653292] (-) TimerEvent: {}
+[8.753934] (-) TimerEvent: {}
+[8.854502] (-) TimerEvent: {}
+[8.955305] (-) TimerEvent: {}
+[9.056024] (-) TimerEvent: {}
+[9.156783] (-) TimerEvent: {}
+[9.257613] (-) TimerEvent: {}
+[9.358298] (-) TimerEvent: {}
+[9.458990] (-) TimerEvent: {}
+[9.559562] (-) TimerEvent: {}
+[9.660076] (-) TimerEvent: {}
+[9.760596] (-) TimerEvent: {}
+[9.861328] (-) TimerEvent: {}
+[9.961943] (-) TimerEvent: {}
+[10.062614] (-) TimerEvent: {}
+[10.163474] (-) TimerEvent: {}
+[10.264375] (-) TimerEvent: {}
+[10.365049] (-) TimerEvent: {}
+[10.465566] (-) TimerEvent: {}
+[10.566046] (-) TimerEvent: {}
+[10.666711] (-) TimerEvent: {}
+[10.767411] (-) TimerEvent: {}
+[10.868090] (-) TimerEvent: {}
+[10.968694] (-) TimerEvent: {}
+[11.069320] (-) TimerEvent: {}
+[11.169945] (-) TimerEvent: {}
+[11.270528] (-) TimerEvent: {}
+[11.371229] (-) TimerEvent: {}
+[11.471848] (-) TimerEvent: {}
+[11.572462] (-) TimerEvent: {}
+[11.673088] (-) TimerEvent: {}
+[11.773774] (-) TimerEvent: {}
+[11.874432] (-) TimerEvent: {}
+[11.975151] (-) TimerEvent: {}
+[12.075925] (-) TimerEvent: {}
+[12.176586] (-) TimerEvent: {}
+[12.277304] (-) TimerEvent: {}
+[12.320874] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[12.377554] (-) TimerEvent: {}
+[12.478928] (-) TimerEvent: {}
+[12.579457] (-) TimerEvent: {}
+[12.680024] (-) TimerEvent: {}
+[12.780626] (-) TimerEvent: {}
+[12.881255] (-) TimerEvent: {}
+[12.981787] (-) TimerEvent: {}
+[13.082478] (-) TimerEvent: {}
+[13.183167] (-) TimerEvent: {}
+[13.283802] (-) TimerEvent: {}
+[13.384287] (-) TimerEvent: {}
+[13.484875] (-) TimerEvent: {}
+[13.585460] (-) TimerEvent: {}
+[13.686035] (-) TimerEvent: {}
+[13.786711] (-) TimerEvent: {}
+[13.887341] (-) TimerEvent: {}
+[13.987902] (-) TimerEvent: {}
+[14.088441] (-) TimerEvent: {}
+[14.189026] (-) TimerEvent: {}
+[14.289578] (-) TimerEvent: {}
+[14.390155] (-) TimerEvent: {}
+[14.490865] (-) TimerEvent: {}
+[14.591497] (-) TimerEvent: {}
+[14.692065] (-) TimerEvent: {}
+[14.792683] (-) TimerEvent: {}
+[14.893265] (-) TimerEvent: {}
+[14.993859] (-) TimerEvent: {}
+[15.094433] (-) TimerEvent: {}
+[15.195040] (-) TimerEvent: {}
+[15.295575] (-) TimerEvent: {}
+[15.396122] (-) TimerEvent: {}
+[15.496666] (-) TimerEvent: {}
+[15.597214] (-) TimerEvent: {}
+[15.697789] (-) TimerEvent: {}
+[15.798467] (-) TimerEvent: {}
+[15.899155] (-) TimerEvent: {}
+[15.999730] (-) TimerEvent: {}
+[16.100320] (-) TimerEvent: {}
+[16.200904] (-) TimerEvent: {}
+[16.301522] (-) TimerEvent: {}
+[16.401996] (-) TimerEvent: {}
+[16.502553] (-) TimerEvent: {}
+[16.603156] (-) TimerEvent: {}
+[16.703804] (-) TimerEvent: {}
+[16.804382] (-) TimerEvent: {}
+[16.904975] (-) TimerEvent: {}
+[17.005510] (-) TimerEvent: {}
+[17.106071] (-) TimerEvent: {}
+[17.166699] (arduinobot_cpp_examples) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[17.187026] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[17.206261] (-) TimerEvent: {}
+[17.306804] (-) TimerEvent: {}
+[17.403495] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[17.404279] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[17.407175] (-) TimerEvent: {}
+[17.507552] (-) TimerEvent: {}
+[17.607994] (-) TimerEvent: {}
+[17.648964] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[17.652970] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[17.708186] (-) TimerEvent: {}
+[17.808626] (-) TimerEvent: {}
+[17.889524] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[17.908811] (-) TimerEvent: {}
+[17.984733] (arduinobot_cpp_examples) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[17.985977] (arduinobot_cpp_examples) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[17.986718] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[17.986911] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[17.987625] (arduinobot_cpp_examples) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[17.987806] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[17.988307] (arduinobot_cpp_examples) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[17.989178] (arduinobot_cpp_examples) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[17.989315] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[17.989938] (arduinobot_cpp_examples) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[17.991211] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Configuring done\n'}
+[18.002658] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Generating done\n'}
+[18.004849] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Build files have been written to: /home/shivam/ros2_arduinobot/build/arduinobot_cpp_examples\n'}
+[18.008944] (-) TimerEvent: {}
+[18.016044] (arduinobot_cpp_examples) CommandEnded: {'returncode': 0}
+[18.016765] (arduinobot_cpp_examples) JobProgress: {'identifier': 'arduinobot_cpp_examples', 'progress': 'build'}
+[18.017112] (arduinobot_cpp_examples) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shivam/ros2_arduinobot/build/arduinobot_cpp_examples', '--', '-j12', '-l12'], 'cwd': '/home/shivam/ros2_arduinobot/build/arduinobot_cpp_examples', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shivam'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/home/shivam'), ('OLDPWD', '/home/shivam'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shivam'), ('NAME', 'Shivam'), ('WSL_INTEROP', '/run/WSL/25224_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Python312/Scripts/:/mnt/c/Program Files/Python312/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/GitHubDesktop/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.3/bin:/snap/bin'), ('WT_SESSION', '6beab316-738a-4c43-bf45-5a2b2265c896'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/shivam/ros2_arduinobot/build/arduinobot_cpp_examples'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[18.062747] (arduinobot_cpp_examples) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o\x1b[0m\n'}
+[18.109118] (-) TimerEvent: {}
+[18.209608] (-) TimerEvent: {}
+[18.313218] (-) TimerEvent: {}
+[18.413788] (-) TimerEvent: {}
+[18.514488] (-) TimerEvent: {}
+[18.615188] (-) TimerEvent: {}
+[18.715853] (-) TimerEvent: {}
+[18.816389] (-) TimerEvent: {}
+[18.916899] (-) TimerEvent: {}
+[19.017557] (-) TimerEvent: {}
+[19.118282] (-) TimerEvent: {}
+[19.218898] (-) TimerEvent: {}
+[19.319687] (-) TimerEvent: {}
+[19.420212] (-) TimerEvent: {}
+[19.520736] (-) TimerEvent: {}
+[19.621279] (-) TimerEvent: {}
+[19.721964] (-) TimerEvent: {}
+[19.822470] (-) TimerEvent: {}
+[19.923018] (-) TimerEvent: {}
+[20.023780] (-) TimerEvent: {}
+[20.124615] (-) TimerEvent: {}
+[20.225449] (-) TimerEvent: {}
+[20.326191] (-) TimerEvent: {}
+[20.426921] (-) TimerEvent: {}
+[20.527487] (-) TimerEvent: {}
+[20.628458] (-) TimerEvent: {}
+[20.729298] (-) TimerEvent: {}
+[20.829863] (-) TimerEvent: {}
+[20.930455] (-) TimerEvent: {}
+[21.030931] (-) TimerEvent: {}
+[21.131499] (-) TimerEvent: {}
+[21.232211] (-) TimerEvent: {}
+[21.332753] (-) TimerEvent: {}
+[21.433503] (-) TimerEvent: {}
+[21.534010] (-) TimerEvent: {}
+[21.634568] (-) TimerEvent: {}
+[21.735081] (-) TimerEvent: {}
+[21.835761] (-) TimerEvent: {}
+[21.936489] (-) TimerEvent: {}
+[22.037191] (-) TimerEvent: {}
+[22.137693] (-) TimerEvent: {}
+[22.238286] (-) TimerEvent: {}
+[22.338885] (-) TimerEvent: {}
+[22.439606] (-) TimerEvent: {}
+[22.540234] (-) TimerEvent: {}
+[22.640729] (-) TimerEvent: {}
+[22.741261] (-) TimerEvent: {}
+[22.841838] (-) TimerEvent: {}
+[22.942341] (-) TimerEvent: {}
+[23.043081] (-) TimerEvent: {}
+[23.143661] (-) TimerEvent: {}
+[23.244213] (-) TimerEvent: {}
+[23.344839] (-) TimerEvent: {}
+[23.445457] (-) TimerEvent: {}
+[23.545931] (-) TimerEvent: {}
+[23.646570] (-) TimerEvent: {}
+[23.747152] (-) TimerEvent: {}
+[23.847694] (-) TimerEvent: {}
+[23.948270] (-) TimerEvent: {}
+[24.048981] (-) TimerEvent: {}
+[24.149554] (-) TimerEvent: {}
+[24.250125] (-) TimerEvent: {}
+[24.350780] (-) TimerEvent: {}
+[24.451369] (-) TimerEvent: {}
+[24.485059] (arduinobot_cpp_examples) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable simple_publisher\x1b[0m\n'}
+[24.551550] (-) TimerEvent: {}
+[24.652162] (-) TimerEvent: {}
+[24.752840] (-) TimerEvent: {}
+[24.851319] (arduinobot_cpp_examples) StdoutLine: {'line': b'[100%] Built target simple_publisher\n'}
+[24.852943] (-) TimerEvent: {}
+[24.864779] (arduinobot_cpp_examples) CommandEnded: {'returncode': 0}
+[24.891410] (arduinobot_cpp_examples) JobProgress: {'identifier': 'arduinobot_cpp_examples', 'progress': 'install'}
+[24.892661] (arduinobot_cpp_examples) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shivam/ros2_arduinobot/build/arduinobot_cpp_examples'], 'cwd': '/home/shivam/ros2_arduinobot/build/arduinobot_cpp_examples', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shivam'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/home/shivam'), ('OLDPWD', '/home/shivam'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shivam'), ('NAME', 'Shivam'), ('WSL_INTEROP', '/run/WSL/25224_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Python312/Scripts/:/mnt/c/Program Files/Python312/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/GitHubDesktop/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.3/bin:/snap/bin'), ('WT_SESSION', '6beab316-738a-4c43-bf45-5a2b2265c896'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/shivam/ros2_arduinobot/build/arduinobot_cpp_examples'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[24.899450] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.900392] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_publisher\n'}
+[24.902762] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Set runtime path of "/home/shivam/ros2_arduinobot/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_publisher" to ""\n'}
+[24.903299] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/arduinobot_cpp_examples\n'}
+[24.903839] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/arduinobot_cpp_examples\n'}
+[24.904426] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/ament_prefix_path.sh\n'}
+[24.904599] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/ament_prefix_path.dsv\n'}
+[24.904786] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/path.sh\n'}
+[24.905266] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/path.dsv\n'}
+[24.905433] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.bash\n'}
+[24.905516] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.sh\n'}
+[24.905803] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.zsh\n'}
+[24.905903] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.dsv\n'}
+[24.905955] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.dsv\n'}
+[24.906117] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_cpp_examples/share/ament_index/resource_index/packages/arduinobot_cpp_examples\n'}
+[24.906359] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/cmake/arduinobot_cpp_examplesConfig.cmake\n'}
+[24.906451] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/cmake/arduinobot_cpp_examplesConfig-version.cmake\n'}
+[24.906742] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/shivam/ros2_arduinobot/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.xml\n'}
+[24.908343] (arduinobot_cpp_examples) CommandEnded: {'returncode': 0}
+[24.953087] (-) TimerEvent: {}
+[25.053730] (-) TimerEvent: {}
+[25.082671] (arduinobot_cpp_examples) JobEnded: {'identifier': 'arduinobot_cpp_examples', 'rc': 0}
+[25.085529] (-) EventReactorShutdown: {}
